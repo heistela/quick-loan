@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.main-header {
+  background: #004080;
+  color: #fff;
+  padding: 20px 0;
+}
+.main-header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  background: #e6f0ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.features ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+.calculator input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+button {
+  background: #004080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #002e5f;
+}
+.hidden {
+  display: none;
+}
+.apply {
+  background: #dbefff;
+  text-align: center;
+  padding: 40px 20px;
+}
+.apply-btn {
+  background: #0071e3;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #666;
+}
